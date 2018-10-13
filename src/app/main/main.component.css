@@ -1,0 +1,68 @@
+#page{
+    margin-top: 100px;
+}
+
+.post{
+    width: 348px;
+    
+}
+
+#favorite{
+    font-size: 27px;
+}
+#chat_bubble{
+    padding-left: 7px;
+    font-size: 27px;
+}
+#bookmark{
+    padding-left: 240px;
+    font-size: 30px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+
+.mat-card-image {
+    width: calc(100%);
+    margin: 0 0px 0px 0px;
+}
+
+
+
+.mat-card-avatar {
+    content:url(https://images-na.ssl-images-amazon.com/images/I/71XRw9-59cL._SX466_.jpg);
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.mat-card-subtitle, .mat-card-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.mat-card-title {
+    padding-top: 8px;
+}
+
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    display: block;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+    margin-top: 15px;
+    border-radius: 2px;
+    margin-left: 30%;
+}
+
+mat-card-actions{
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+mat-card-content{
+    padding-left: 12px;
+    font-family: 'Roboto', sans-serif;
+}
